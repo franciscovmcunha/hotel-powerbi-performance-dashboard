@@ -1,38 +1,30 @@
-# Hotel Performance & Guest Insights Dashboard
+# Hotel Power BI Performance Dashboard
 
-## 📌 Project Overview
-This project presents an end-to-end Power BI dashboard built using real hotel data from Booking and Expedia platforms.
+## 📊 Project Overview
+Business Intelligence dashboard built with Power BI using real hotel data
+(check-ins, cancellations and reviews), fully anonymized.
 
-The goal is to analyze:
-- Operational performance
-- Channel efficiency
-- Guest segmentation
-- Review trends and reputation
+## 🏗️ Architecture
+- Raw data (Booking, Expedia, Local Lodging)
+- Data transformation in Power BI (Power Query)
+- Star schema modeling
+- DAX measures for hotel KPIs
 
-## 🧱 Data Sources
-- Booking.com (Check-ins, cancellations, reviews since 2022)
-- Expedia (Check-ins, cancellations, reviews since 2024)
-
-All data has been anonymized.
-
-## 📊 KPIs
-- Total Check-ins
+## 📈 KPIs
+- Occupancy Rate
 - Cancellation Rate
-- Channel Performance (Booking vs Expedia)
-- Guest Nationality & Language
-- Review Score Trends
+- Average Daily Rate (ADR)
+- RevPAR
+- Channel Performance
+
+## 🔒 Data Privacy
+All data has been anonymized to comply with GDPR regulations.
 
 ## 🛠️ Tools
-- Power BI Desktop
+- Power BI
 - Power Query (M)
 - DAX
-- SQL (exploratory)
+- SQL
 
-## 📷 Dashboard Preview
-(Screenshots in /docs)
-
-## 🚀 Key Learnings
-- Star schema modeling
-- DAX measures for operational KPIs
-- Data cleaning and transformation in Power Query
-- Business-oriented dashboard design
+## 📸 Screenshots
+See `/docs/dashboard_screenshots`
